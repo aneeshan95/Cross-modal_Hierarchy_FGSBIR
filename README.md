@@ -25,7 +25,7 @@ illustrates our overall idea of cross-modal hierarchical modelling.
 
 # Result 
 ![](./Images/retrieval.jpg)
-Our method’s (blue) efficiency over B-Siamese (red) at varying extent (coarse, coarse++) of sketch details is shown. Numbers denote rank of the matching photo.
+Our method’s (blue) efficiency over a Triplet-loss trained Siamese baseline network (red) at varying extent (coarse, coarse++) of sketch details is shown. Numbers denote rank of the matching photo.
 
 # Citation
 If you find this article useful in your research, please consider citing:
