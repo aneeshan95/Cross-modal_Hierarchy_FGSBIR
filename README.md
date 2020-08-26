@@ -2,15 +2,7 @@
 #### [Paper](https://arxiv.org/pdf/2007.15103.pdf) accepted for Oral presentation in BMVC 2020. 
 
 # Abstract
-Sketch as an image search query is an ideal alternative to text in capturing the finegrained visual details. 
-Prior successes on fine-grained sketch-based image retrieval (FGSBIR) have demonstrated the importance of tackling
-the unique traits of sketches as opposed to photos, e.g., temporal vs. static, strokes vs. pixels, and abstract vs. pixelperfect.
-In this paper, we study a further trait of sketches that has been overlooked to date, that is, they are hierarchical in terms of 
-the levels of detail – a person typically sketches up to various extents of detail to depict an object. This hierarchical structure
-is often visually distinct. In this paper, we design a novel network that is capable of cultivating sketch-specific hierarchies and
-exploiting them to match sketch with photo at corresponding hierarchical levels. In particular, features from a sketch and a photo
-are enriched using cross-modal co-attention, coupled with hierarchical node fusion at every level to form a better embedding space
-to conduct retrieval. Experiments on common benchmarks show our method to outperform state-of-the-arts by a significant margin.
+Sketch as an image search query is an ideal alternative to text in capturing the finegrained visual details. Prior successes on fine-grained sketch-based image retrieval (FGSBIR) have demonstrated the importance of tackling the unique traits of sketches as opposed to photos, e.g., temporal vs. static, strokes vs. pixels, and abstract vs. pixelperfect. In this paper, we study a further trait of sketches that has been overlooked to date, that is, they are hierarchical in terms of the levels of detail – a person typically sketches up to various extents of detail to depict an object. This hierarchical structure is often visually distinct. In this paper, we design a novel network that is capable of cultivating sketch-specific hierarchies and exploiting them to match sketch with photo at corresponding hierarchical levels. In particular, features from a sketch and a photo are enriched using cross-modal co-attention, coupled with hierarchical node fusion at every level to form a better embedding space to conduct retrieval. Experiments on common benchmarks show our method to outperform state-of-the-arts by a significant margin.
 
 # Illustration
 ![](./Images/opening.jpg)
