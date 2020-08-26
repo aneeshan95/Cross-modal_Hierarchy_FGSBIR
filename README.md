@@ -1,5 +1,5 @@
 # [Cross-modal Hierarchical Modelling for FGSBIR](https://aneeshan95.github.io/Cross-modal_Hierarchy_FGSBIR/)
-#### Work accepted for Oral presentation in BMVC 2020. [Paper](https://arxiv.org/pdf/2007.15103.pdf)
+#### [Paper](https://arxiv.org/pdf/2007.15103.pdf) accepted for Oral presentation in BMVC 2020. 
 
 # Abstract
 Sketch as an image search query is an ideal alternative to text in capturing the finegrained visual details. 
