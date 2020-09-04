@@ -45,7 +45,6 @@ def main_train(opt):
             Triplet_Loss = Triplet_Criterion(sketch_anchor_embedding, rgb_positive_embedding, rgb_negetive_embedding)
             loss = Triplet_Loss
 
-
             loss.backward()
             optimizer.step()
 

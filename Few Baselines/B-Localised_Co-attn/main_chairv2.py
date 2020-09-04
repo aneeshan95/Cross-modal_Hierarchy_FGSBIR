@@ -46,10 +46,7 @@ def main_train(opt):
 
             if i % 50 == 0:
                 print('Epoch: {}, Iteration: {}, Time: {}, Total_Loss: {}, Top1: {}, Top10: {}'.format(epoch,
-                                                                                           i,
-                                                                                           (time.time() - start_time),
-                                                                                           loss,
-                                                                                           top1_buffer, top10_buffer))
+                   i, (time.time() - start_time), loss, top1_buffer, top10_buffer))
 
             if (i + 0) % opt.save_iter == 0:
                 with torch.no_grad():
