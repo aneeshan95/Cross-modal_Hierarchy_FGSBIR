@@ -15,7 +15,16 @@ illustrates our overall idea of cross-modal hierarchical modelling.
  followed by hierarchical parsing operation. The last two steps are repeated consecutively, until a final representation from each branch is obtained. 
  A loss (L) brings the matching sketch-photo pair (+) closer (grey) while distancing (red) the unmatched (-) one.
 
-# Result 
+## Datasets
+We use QMUL-ChairV2 and QMUL-ShoeV2 datasets (Available [here](http://sketchx.eecs.qmul.ac.uk/downloads/)) along with an user-interface dataset, SWIRE ([sketches](https://storage.googleapis.com/crowdstf-rico-uiuc-4540/swire_dataset_v0.1/sketches.zip), [images](http://interactionmining.org/rico)).
+Please read the [paper](https://arxiv.org/pdf/2007.15103.pdf) for details, and place them in the same way as in code (Screenshot provided).
+
+## Code
+A basic version of the algorithm implemented, is provided for a clean understanding, along with a few baseline approaches.
+
+# Results
+![](./Images/experiments.jpg)
+
 ![](./Images/retrieval.jpg)
 Our method’s (blue) efficiency over a Triplet-loss trained Siamese baseline network (red) at varying extent (coarse, coarse++) of sketch details is shown. Numbers denote rank of the matching photo.
 
