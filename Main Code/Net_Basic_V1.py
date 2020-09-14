@@ -51,14 +51,11 @@ class Net_Basic(nn.Module):
         G_t = torch.sigmoid(T * V_agg)
         T_comb = F.relu(self.F_t(G_t * (T + V_agg))) + T  # N2 x 512
 
-
-        # V_final = V_comb.max(0)[0]
-        # T_final = T_comb.max(0)[0]
-
-        # print(V_comb.shape, V_final.shape, T_final.shape, T_comb.shape)
-        # return F.normalize(V_final.unsqueeze(0)), F.normalize(T_final.unsqueeze(0))
-
-        return V_comb, T_comb
+        V_final = V_comb.max(0)[0]
+        T_final = T_comb.max(0)[0]
+	
+        return F.normalize(V_final.unsqueeze(0)), F.normalize(T_final.unsqueeze(0))
+        # return V_comb, T_comb
 
     def Gumbel_Tree(self, V_Feature, Training = True):
         num_nodes = V_Feature.shape[0]
